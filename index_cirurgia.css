@@ -1,0 +1,32 @@
+.area{
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabela_cirurgias{
+
+    padding: 10%;
+    height: 40%;
+    overflow-y: scroll;
+
+    scroll-behavior: auto smooth;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cirurgia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid 1px black;
+}
+.cirurgia>p{
+    width: 18%;
+}
